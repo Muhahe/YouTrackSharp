@@ -24706,7 +24706,7 @@ namespace YouTrackSharp.Generated
     
     /// <summary>Represents the state of an issue in YouTrack.</summary>
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "10.4.4.0 (Newtonsoft.Json v12.0.0.0)")]
-    public partial class StateBundleElement : LocalizableBundleElement
+    public partial class StateBundleElement : EnumBundleElement
     {
         [Newtonsoft.Json.JsonProperty("id", NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore)]
         public string Id { get; set; }
